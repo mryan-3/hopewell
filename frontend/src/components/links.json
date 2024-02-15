@@ -1,0 +1,29 @@
+{
+    "links": [
+        {
+            "label": "Home",
+            "href": "/home"
+        },
+
+        {
+            "label": "About Me",
+            "href": "/about"
+        },
+        {
+            "label": "Services",
+            "href": "/services"
+        },
+        {
+            "label": "Conditions",
+            "href": "/conditions"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        },
+        {
+            "label": "FAQs",
+            "href": "/faqs"
+        }
+    ]
+}
