@@ -1,17 +1,25 @@
 import React from 'react'
+
 const Hero: React.FC = () => {
   return (
-    <div className='bg-primary flex items-center justify-center h-screen mb-12  bg-center bg-fixed bg-no-repeat bg-cover hero-img '>
-      <div />
-      <div>
-        <h2 className='font-montserrat '>Heading </h2>
-        <p>
-          Woman receiving gynecological care: This could be a professional photo
-          representing a diverse and relatable age range. Ensure it portrays
-          comfort and respect.
-        </p>
+    <div className='bg-gradient flex justify-center items-center h-screen mb-12 '>
+    <div className='p-2 '>
+          <h2 className='font-montserrat font-semibold text-[28px] text-center md:text-[36px] p-4'>
+            Your Journey to Well-being Starts Here: Compassionate Gynecology at
+            <hr />
+            <span className='text-[20px] italic p-4 font-bold'>
+              {' '}
+              Hopewell General Hospital
+            </span>
+            <hr />
+          </h2>
+          <p className='font-open-sans text-[16px] font-semibold text-center p-4'>
+            Offering Comprehensive Gynecological Care, From Routine Checkups to
+            Advanced Procedures.
+          </p>
+          <hr />
           <button>Book</button>
-      </div>
+        </div>
     </div>
   )
 }
