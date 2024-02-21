@@ -6,7 +6,7 @@ const Doctor: React.FC = () => {
     <div className='w-full h-full bg-gradient p-8'>
       <hr />
       <div className='flex justify-center items-center'>
-        <h1 className='font-montserrat font-bold text-[40px] py-4'>
+        <h1 className='font-montserrat font-bold text-[40px] py-4 leading-6'>
           {' '}
           Our Doctor
         </h1>
@@ -19,10 +19,10 @@ const Doctor: React.FC = () => {
             className='max-w-[100%] h-auto align-middle rounded-lg border-accent border-4'
           />
         <div className='flex flex-col px-2 '>
-          <h1 className='font-montserrat font-bold text-[20px] p-2 text-center'>
+          <h1 className='font-montserrat font-bold text-[20px] p-2 text-center leading-6'>
             Dr Amara Kapoor
           </h1>
-          <p className='font-open-sans text-[16px] font-medium p-2 text-center'>
+          <p className='font-open-sans text-[16px] leading-6 font-medium p-2 text-center'>
             Dr. Amara Kapoor is a board-certified gynecologist dedicated to
             offering comprehensive and compassionate care for women throughout
             all stages of life. With extensive experience and a commitment to
@@ -33,7 +33,7 @@ const Doctor: React.FC = () => {
           <h2 className='font-montserrat font-bold text-[20px] p-2 text-center'>
             Education & Qualification
           </h2>
-          <p className='font-open-sans text-[16px] font-medium p-2'>
+          <p className='font-open-sans text-[16px] font-medium leading-6 p-2'>
               <li className='py-1'>
                 Harvard Medical School, Boston, MA (2017)
               </li>
@@ -53,7 +53,7 @@ const Doctor: React.FC = () => {
           <h2 className='font-montserrat font-bold text-[20px] p-2 text-center'>
             Areas of Expertise
           </h2>
-          <p className='font-open-sans text-[16px] font-medium p-2'>
+          <p className='font-open-sans text-[16px] font-medium p-2 leading-6'>
               <li className='py-1'>Minimally invasive gynecological surgery</li>
               <li className='py-1'>Comprehensive women's health care</li>
               <li className='py-1'>Prenatal care and delivery</li>
