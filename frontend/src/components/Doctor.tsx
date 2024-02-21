@@ -11,12 +11,13 @@ const Doctor: React.FC = () => {
           Our Doctor
         </h1>
       </div>
-      <br />
+
+      <hr className='p-2'/>
       <div className='flex flex-col lg:flex-row '>
-        <div className='flex flex-col w-full p-4 '>
+        <div className='flex flex-col w-full  p-4 '>
           <img
             src={DoctorImage}
-            className='my-auto  rounded-lg border-accent border-4'
+            className='max-w-[100%] h-auto align-middle rounded-lg border-accent border-4'
           />
         </div>
         <div className='flex flex-col px-2 '>

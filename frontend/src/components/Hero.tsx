@@ -19,14 +19,12 @@ const Hero: React.FC = () => {
         </p>
         <hr />
         <div className='flex items-center justify-center w-full p-6'>
-        <button className='group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-neutral-200 font-medium'>
-          <div className='inline-flex h-12 translate-x-0 items-center justify-center bg-accent px-6 text-neutral-950 transition group-hover:-translate-x-[150%]'>
-            Book An Appointment
-          </div>
-          <div className='absolute inline-flex h-12 w-full translate-x-[100%] items-center justify-center bg-accent px-6 text-black transition duration-300 group-hover:translate-x-0'>
-            Book An Appointment
-          </div>
-        </button>{' '}
+          <button className='group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-medium text-neutral-200 transition hover:scale-110'>
+            <span>Book an Appointment</span>
+            <div className='absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] group-hover:duration-1000 group-hover:[transform:skew(-12deg)_translateX(100%)]'>
+              <div className='relative h-full w-8 bg-white/20'></div>
+            </div>
+          </button>
         </div>
       </div>
     </div>
